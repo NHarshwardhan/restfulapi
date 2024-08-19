@@ -1,6 +1,16 @@
 <?php
 
- require_once 'config.php';
+  // Allow all origins
+  header("Access-Control-Allow-Origin: http://localhost:3000");
+
+  // Allow specific method
+  header("Access-Control-Allow-Methods: GET, POST");
+
+  //Allow specific headers
+  header("Access-Control-Allow-Headers: Content-Type, Authorization");
+
+  require_once 'config.php';
+ 
 
  header('Content-Type: application/json');
 

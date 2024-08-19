@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirect /tasks to /index.php/tasks
+RewriteRule ^tasks$ index.php/tasks [L,QSA]

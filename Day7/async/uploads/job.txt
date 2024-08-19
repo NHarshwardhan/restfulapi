@@ -1,0 +1,4 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library 'soap.so' (tried: C:\xampp\php\ext\soap.so (The specified module could not be found), C:\xampp\php\ext\php_soap.so.dll (The specified module could not be found)) in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'soap.so' (tried: C:\xampp\php\ext\soap.so (The specified module could not be found), C:\xampp\php\ext\php_soap.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "soap" is already loaded in Unknown on line 0
